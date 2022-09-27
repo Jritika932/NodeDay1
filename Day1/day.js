@@ -15,7 +15,7 @@ It is used to export a given file so that other files are allowed to use it.we c
 It promotes modular programming which means creating smaller chunk of modules which can be used and are independent of each other.
 It makes it easy to maintain the code base.
 
-5. Difference between default export and named export?
+// 5. Difference between default export and named export?
 form a given file,only one default export is possible.when we export a value by default,we dont have to import it by using the same name.
 from a given file,there can be multiple named exports.when we export by name,we have to import it by using the same name.named exports should be within curly braces.
 ```                 Named export
@@ -33,18 +33,12 @@ from a given file,there can be multiple named exports.when we export by name,we 
 
                export default MyComponent
 
-               // or
-
               function MyComponent() {}
 
               export default MyComponent
 
-              // or
 
             export default function() {}
-
-               // or
-
            export default () => {}
             view raw 
           
